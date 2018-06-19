@@ -27,7 +27,7 @@ function startApp ( ) {
      })
    }
 
-//problem onward...
+//Here is where I ran into problem
 function runSearch () {
     connection.query("SELECT * FROM products", function(err,results){
         if (err) throw err; 
